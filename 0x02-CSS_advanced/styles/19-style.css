@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: var(--footer-padding);
 }
 
-ul.footer{
+.footer ul {
     text-align: right;
 }
 
