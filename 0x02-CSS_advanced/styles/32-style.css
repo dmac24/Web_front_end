@@ -286,6 +286,7 @@ a:active {
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
     transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
 }
 
 .visually-hidden {
@@ -449,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
-    transition-property: var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
