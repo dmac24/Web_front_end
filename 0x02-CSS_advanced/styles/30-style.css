@@ -505,10 +505,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-work .card-image {
- height: 30rem;
- width: 100%;
- object-fit: cover;
- vertical-align: bottom;   
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;   
 }
 
 .card-work .card-inner {
@@ -525,7 +525,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-work .card-title {
     text-align: center;
-    padding: 0;
+    margin: 0;
     opacity: 0;
     height: 100%;
     position: relative;
@@ -537,12 +537,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 45%;
 }
 
-.card-work .card-title a:hover {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
+    content: "";
 }
 
 .card-work .card-title a:hover {
