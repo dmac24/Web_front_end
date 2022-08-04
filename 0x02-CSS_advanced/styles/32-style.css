@@ -523,7 +523,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-work:hover .card-outer {
-    transform: scaleY(0.95);
+    transform: scale(0.95);
 }
 
 .card-work .card-image img {
@@ -533,9 +533,9 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: bottom;
 }
 
-.card-work:hover .card-image img {
+.card-work:hover .card-image {
     transform: scale(1.2);    
-    transition-property: var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
