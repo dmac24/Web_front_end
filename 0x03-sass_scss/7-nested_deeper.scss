@@ -1,0 +1,17 @@
+/* Assigns font size in nested and nested again */
+
+$font12: 12px;
+$font14: 14px;
+$font16: 16px;
+
+body {
+  font-size: $font14;
+
+  h1 {
+    font-size: $font16;
+
+    &.smaller {
+      font-size: $font12;
+    }
+  }
+}
